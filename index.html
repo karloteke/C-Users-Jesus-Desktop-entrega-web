@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Page Title</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+        <script src='script.js'></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="content">
+            <header>
+                <div class="wrapper">
+                    <div class="flex">
+                        <img class="logo" src="./assets/img/Pintalabios.png">
+                        <h1>Carlota make-up</h1>
+                    </div>
+    
+                    <nav>
+                        <ul class="flex">
+                            <li>
+                                <a class="active" href="#">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Servicios</a>
+                            </li>
+                            <li>
+                                <a href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>    
+                </div>
+             </header>
+
+            <section class="slider flex">
+                <div class="w-50">
+                    <img class="photo" src="./assets/img/fotoPortada.png">
+                </div>
+                <div class="w-50">
+                    <img class="photo" src="./assets/img/fotoPortada2.png">
+                </div>
+            </section>
+
+
+            <section id="conoceme">
+                <div class="title">
+                    <div class="wrapper">
+                        <h2>Conóceme</h2>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="flex full-height">
+                        <div class="w-50">
+                            <p class="custom-text">
+                                Mi nombre es Carlota y soy maquilladora profesional. Siempre me ha gustado el mundo del maquillaje, 
+                                pero lo tenía en un segundo plano, como un hobby del que disfrutar en mi tiempo libre. Con el paso de los años, 
+                                me he dado cuenta de que maquillar es lo que realmente me apasiona.
+                                ¡Este es el comienzo de un largo y maravilloso camino!
+                            </p>
+                        </div>
+                        <div class="w-50 text-center">
+                            <img class="column-photo" src="./assets/img/conoceme.jpg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="title">
+                    <div class="wrapper">
+                        <h2>Trabajos</h2>
+                    </div>
+                </div>
+                <div class="flex full-height justify-center">
+                    <div class="carousel-container">
+                        <div class="carousel my-carousel carousel--translate">
+                            <input class="carousel__activator" type="radio" name="carousel" id="F" checked="checked"/>
+                            <input class="carousel__activator" type="radio" name="carousel" id="G"/>
+                            <input class="carousel__activator" type="radio" name="carousel" id="H"/>
+                            <div class="carousel__controls">
+                            <label class="carousel__control carousel__control--backward" for="H"></label>
+                            <label class="carousel__control carousel__control--forward" for="G"></label>
+                            </div>
+                            <div class="carousel__controls">
+                            <label class="carousel__control carousel__control--backward" for="F"></label>
+                            <label class="carousel__control carousel__control--forward" for="H"></label>
+                            </div>
+                            <div class="carousel__controls">
+                            <label class="carousel__control carousel__control--backward" for="G"></label>
+                            <label class="carousel__control carousel__control--forward" for="F"></label>
+                            </div>
+                            
+                            <div class="carousel__track">
+                            <li class="carousel__slide"></li>
+                            <li class="carousel__slide"></li>
+                            <li class="carousel__slide"></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-white">
+                <div class="title yellow-title">
+                    <div class="wrapper">
+                        <h2>Tendencias</h2>
+                    </div>
+                </div>
+                <div class="flex flex-column wrapper">
+                    <div class="flex w-100">
+                        <div class="w-50 text-center custom-article">
+                            <img class="article-photo" src="./assets/img/Colores.jpg">
+                            <div class="article-description">
+                                <h3>Ojos coloridos</h3>
+                                <div>01/06/2022</div>
+                                <button class="btn">Mostrar</button>
+                            </div>
+                        </div>
+    
+                        <div class="w-50 text-center custom-article">
+                            <img class="article-photo" src="./assets/img/colores-tierra.jpg">
+                            <div class="article-description">
+                                <h3>Ojos ahumados</h3>
+                                <div>19/08/2022</div>
+                                <button class="btn">Mostrar</button>
+                            </div>
+                        </div>
+    
+                        <div class="w-50 text-center custom-article">
+                            <img class="article-photo" src="./assets/img/brillantes.jpg">
+                            <div class="article-description">
+                                <h3>Ojos con brillantes</h3>
+                                <div>19/10/2022</div>
+                                <button class="btn">Mostrar</button>
+                            </div>
+                        </div>
+    
+                        <div class="w-50 text-center custom-article">
+                            <img class="article-photo" src="./assets/img/Purpurina.jpg">
+                            <div class="article-description">
+                                <h3>Ojos con purpurina</h3>
+                                <div>01/01/2023</div>
+                                <button class="btn">Mostrar</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact">
+                        <div class="flex">
+                            <div class="w-50">
+                                <h2 class="contact-title">Contacto</h2>
+                                <p>Si necesitas contactarnos para consultar o contratar algún servicio de maquillaje no dudes en rellenar el formulario.
+                                    Recuerda que si nos indicas en comentarios el tipo de evento, tipo de piel o gustos te podré asesorar de una manera más 
+                                    rápida. 
+                                </p>
+                            </div>
+                            <div class="w-50">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Nombre">
+                                    </div>
+                
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Email">
+                                    </div>
+                        
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Teléfono">
+                                    </div>
+                        
+                                    <div class="form-group">
+                                        <textarea>Comentario</textarea>
+                                    </div>
+                                    
+                                    <input type="submit" class="btn" value="Enviar">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>                
+            </section>
+
+            <footer>
+                <div class="flex wrapper h-100 footer-wrapper">
+                    <div class="flex w-50 h-100 menu-footer-left">
+                        <div class="flex align-center">
+                            <span>Inicio</span>
+                            <span>Blog</span> 
+                            <span>Servicios</span>
+                            <span>Contacto</span>
+                        </div>
+                    </div>
+                    <div class="flex w-50 h-100">
+                        <div class="flex w-100">
+                            <div class="flex justify-center align-center w-50 right-bottom-border footer-insta-box">
+                                <img src="./assets/img/ig.png">
+                            </div>
+                            <div class="flex flex-column justify-center align-center w-50 right-bottom-border menu-footer-right">
+                                <span>Aviso Legal</span>
+                                <span>Política de privacidad</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
